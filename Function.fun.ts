@@ -1,4 +1,4 @@
-//% weight=100 color#333333 icon="\uf256"
+//% weight=100 color=#333333 icon="\uf256"
 namespace functiontest{
 //% block
 function printstring(x: string): void{
