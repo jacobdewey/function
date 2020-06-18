@@ -10,9 +10,7 @@ printString(x)
 }
 //% blockId= printBlock block="printBlock"
 export function printBlock(x: () => void): void{
-printblock(function () {
-x
-})
+console.log(x)
 }
 
 
@@ -22,4 +20,22 @@ x
 function printblock(x: () => void): void{
 console.log(x)
 }
+//% block
+export function printTest(x: ()=> string): void {
+console.log(x)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

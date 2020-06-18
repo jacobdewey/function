@@ -4,7 +4,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "ConsolePrint": "github:jacobdewey/testfhvgfghijff#master"
     },
     "files": [
         "README.md",
